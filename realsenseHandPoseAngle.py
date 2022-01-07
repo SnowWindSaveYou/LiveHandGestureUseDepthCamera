@@ -5,8 +5,9 @@ import numpy as np
 
 import models
 from utils.handDetector import HandDetector
+from utils.filter import HandKalmanFilter
 import utils
-# region configs
+# region
 windowName = "RealSense Hand Detect"
 count = 0
 
@@ -30,7 +31,7 @@ model_dir="./models/a2j/model/HANDS2017.pth"
 
 # init
 jointDetector = models.a2j.JointDetector(model_dir=model_dir,useCuda=True)
-
+karmanFilter = HandKalmanFilter()
 
 pipeline = rs.pipeline()
 config = rs.config()
@@ -40,6 +41,8 @@ config.enable_stream(rs.stream.depth, 640, 480, rs.format.z16, 30)
 
 # try:
 pipe_profile = pipeline.start(config)
+
+
 
 while True:
     frames = pipeline.wait_for_frames()
@@ -59,7 +62,13 @@ while True:
     if result is not None:
         result = utils.math.applyTrans(result,mat)
         result = jointDetector.convertHand2017ToMpOrder(result)
-        display_img = utils.display.drawResult(result[:],display_img)
+        result = karmanFilter.calc(result)
+        
+        feangles= utils.math.getFlexionExtensionAngleList(result)
+        aaangles= utils.math.getAbductionAdductionAngleList(result)
+        display_img = utils.display.drawResult(result,display_img,zType=1,showLabel=True)
+        display_img = utils.display.drawAngle(display_img, result,feangles,aaangles)
+        
         
     display_img = cv2.rectangle(display_img,
                                 (int(test_topRight_pixel[0]),int(test_topRight_pixel[1])), 

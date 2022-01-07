@@ -81,7 +81,7 @@ class HandDetector(object):
         imCrop = self.crop3d(com,  topRight_pixel, bottomLeft_pixel, depthSize/2)
         
         imgResize = cv2.resize(imCrop, img_size, interpolation=cv2.INTER_NEAREST)
-        crop2imgmat = self.getTransMat(topRight_pixel, bottomLeft_pixel ,img_size)
+        crop2imgmat = self.getTransMat(com,topRight_pixel, bottomLeft_pixel ,img_size)
         return np.asarray(imgResize,dtype = 'float32') ,com, crop2imgmat
 
     def pixel2world(self,x):
@@ -93,7 +93,7 @@ class HandDetector(object):
         x[1] = x[1] * self.fy / x[2] + self.uy
         return x
             
-    def getTransMat(self,topRight, bottomLeft, imgSize=(176,176)):
+    def getTransMat(self,com, topRight, bottomLeft, imgSize=(176,176)):
         height_crop = bottomLeft[0]- topRight[0]
         width_crop =  topRight[1]-bottomLeft[1]
         
@@ -101,7 +101,7 @@ class HandDetector(object):
         trans = np.array([
             [1,0,0,bottomLeft[1]],
             [0,1,0,topRight[0]],
-            [0,0,1,0],
+            [0,0,1,com[2]],
             [0,0,0,1],
         ])
         # 缩放变换
