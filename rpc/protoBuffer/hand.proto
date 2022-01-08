@@ -1,0 +1,61 @@
+syntax = "proto3";
+package HandDetect;
+
+service HandService{
+    rpc PushHand(ProtoHandRequest) returns(ProtoHandResponse){};
+}
+
+
+message point3{
+    float x = 1;
+    float y = 2;
+    float z = 3;
+}
+message point2{
+    float x = 1;
+    float y = 2;
+}
+
+message ProtoHandRequest{
+    repeated ProtoHand hands =1;
+    Proto3DControlCommand command = 2;
+};
+message ProtoHandResponse{
+    bool result = 1;
+};
+
+message ProtoHand{
+    int32 handUid = 24;
+    int32 gestureType = 23;
+    int32 handSide = 22;
+    point3 WRIST = 21;
+    // 拇指
+    point3 THUMB_CMC = 1;
+    point3 THUMB_MCP = 2;
+    point3 THUMB_DIP = 3;
+    point3 THUMB_TIP = 4;
+    // 食指
+    point3 INDEX_FINGER_MCP = 5;
+    point3 INDEX_FINGER_PIP = 6;
+    point3 INDEX_FINGER_DIP = 7;
+    point3 INDEX_FINGER_TIP = 8;
+    // 中指
+    point3 MIDDLE_FINGER_MCP = 9;
+    point3 MIDDLE_FINGER_PIP = 10;
+    point3 MIDDLE_FINGER_DIP = 11;
+    point3 MIDDLE_FINGER_TIP = 12;
+    // 无名指
+    point3 RING_FINGER_MCP = 13;
+    point3 RING_FINGER_PIP = 14;
+    point3 RING_FINGER_DIP = 15;
+    point3 RING_FINGER_TIP = 16;
+    // 小拇指
+    point3 PINKY_MCP = 17;
+    point3 PINKY_PIP = 18;
+    point3 PINKY_DIP = 19;
+    point3 PINKY_TIP = 20;
+};
+
+message Proto3DControlCommand{
+    int32 commandId = 1;
+}

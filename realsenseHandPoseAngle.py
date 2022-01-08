@@ -6,6 +6,7 @@ import numpy as np
 import models
 from utils.handDetector import HandDetector
 from utils.filter import HandKalmanFilter
+from utils.commonSetting import *
 import utils
 # region
 windowName = "RealSense Hand Detect"
