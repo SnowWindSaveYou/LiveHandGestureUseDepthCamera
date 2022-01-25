@@ -3,6 +3,7 @@ package HandDetect;
 
 service HandService{
     rpc PushHand(ProtoHandRequest) returns(ProtoHandResponse){};
+    rpc DoGreat(point3) returns(point3){};
 }
 
 
@@ -28,32 +29,32 @@ message ProtoHand{
     int32 handUid = 24;
     int32 gestureType = 23;
     int32 handSide = 22;
-    point3 WRIST = 21;
+    point3 Wrist = 21;
     // 拇指
-    point3 THUMB_CMC = 1;
-    point3 THUMB_MCP = 2;
-    point3 THUMB_DIP = 3;
-    point3 THUMB_TIP = 4;
+    point3 ThumbCMC = 1;
+    point3 ThumbMCP = 2;
+    point3 ThumbDIP = 3;
+    point3 ThumbTIP = 4;
     // 食指
-    point3 INDEX_FINGER_MCP = 5;
-    point3 INDEX_FINGER_PIP = 6;
-    point3 INDEX_FINGER_DIP = 7;
-    point3 INDEX_FINGER_TIP = 8;
+    point3 IndexMCP = 5;
+    point3 IndexPIP = 6;
+    point3 IndexDIP = 7;
+    point3 IndexTIP = 8;
     // 中指
-    point3 MIDDLE_FINGER_MCP = 9;
-    point3 MIDDLE_FINGER_PIP = 10;
-    point3 MIDDLE_FINGER_DIP = 11;
-    point3 MIDDLE_FINGER_TIP = 12;
+    point3 MiddleMCP = 9;
+    point3 MiddlePIP = 10;
+    point3 MiddleDIP = 11;
+    point3 MiddleTIP = 12;
     // 无名指
-    point3 RING_FINGER_MCP = 13;
-    point3 RING_FINGER_PIP = 14;
-    point3 RING_FINGER_DIP = 15;
-    point3 RING_FINGER_TIP = 16;
+    point3 RingMCP = 13;
+    point3 RingPIP = 14;
+    point3 RingDIP = 15;
+    point3 RingTIP = 16;
     // 小拇指
-    point3 PINKY_MCP = 17;
-    point3 PINKY_PIP = 18;
-    point3 PINKY_DIP = 19;
-    point3 PINKY_TIP = 20;
+    point3 PinkyMCP = 17;
+    point3 PinkyPIP = 18;
+    point3 PinkyDIP = 19;
+    point3 PinkyTIP = 20;
 };
 
 message Proto3DControlCommand{

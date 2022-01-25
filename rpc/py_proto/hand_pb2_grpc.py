@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-import hand_pb2 as hand__pb2
+from . import hand_pb2 as hand__pb2
 
 
 class HandServiceStub(object):
@@ -19,12 +19,23 @@ class HandServiceStub(object):
                 request_serializer=hand__pb2.ProtoHandRequest.SerializeToString,
                 response_deserializer=hand__pb2.ProtoHandResponse.FromString,
                 )
+        self.DoGreat = channel.unary_unary(
+                '/HandDetect.HandService/DoGreat',
+                request_serializer=hand__pb2.point3.SerializeToString,
+                response_deserializer=hand__pb2.point3.FromString,
+                )
 
 
 class HandServiceServicer(object):
     """Missing associated documentation comment in .proto file."""
 
     def PushHand(self, request, context):
+        """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
+    def DoGreat(self, request, context):
         """Missing associated documentation comment in .proto file."""
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
         context.set_details('Method not implemented!')
@@ -37,6 +48,11 @@ def add_HandServiceServicer_to_server(servicer, server):
                     servicer.PushHand,
                     request_deserializer=hand__pb2.ProtoHandRequest.FromString,
                     response_serializer=hand__pb2.ProtoHandResponse.SerializeToString,
+            ),
+            'DoGreat': grpc.unary_unary_rpc_method_handler(
+                    servicer.DoGreat,
+                    request_deserializer=hand__pb2.point3.FromString,
+                    response_serializer=hand__pb2.point3.SerializeToString,
             ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
@@ -62,5 +78,22 @@ class HandService(object):
         return grpc.experimental.unary_unary(request, target, '/HandDetect.HandService/PushHand',
             hand__pb2.ProtoHandRequest.SerializeToString,
             hand__pb2.ProtoHandResponse.FromString,
+            options, channel_credentials,
+            insecure, call_credentials, compression, wait_for_ready, timeout, metadata)
+
+    @staticmethod
+    def DoGreat(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(request, target, '/HandDetect.HandService/DoGreat',
+            hand__pb2.point3.SerializeToString,
+            hand__pb2.point3.FromString,
             options, channel_credentials,
             insecure, call_credentials, compression, wait_for_ready, timeout, metadata)

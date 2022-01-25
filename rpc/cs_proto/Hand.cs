@@ -29,32 +29,31 @@ namespace HandDetect {
             "CgF5GAIgASgCImwKEFByb3RvSGFuZFJlcXVlc3QSJAoFaGFuZHMYASADKAsy",
             "FS5IYW5kRGV0ZWN0LlByb3RvSGFuZBIyCgdjb21tYW5kGAIgASgLMiEuSGFu",
             "ZERldGVjdC5Qcm90bzNEQ29udHJvbENvbW1hbmQiIwoRUHJvdG9IYW5kUmVz",
-            "cG9uc2USDgoGcmVzdWx0GAEgASgIIsYHCglQcm90b0hhbmQSDwoHaGFuZFVp",
+            "cG9uc2USDgoGcmVzdWx0GAEgASgIIt4GCglQcm90b0hhbmQSDwoHaGFuZFVp",
             "ZBgYIAEoBRITCgtnZXN0dXJlVHlwZRgXIAEoBRIQCghoYW5kU2lkZRgWIAEo",
-            "BRIhCgVXUklTVBgVIAEoCzISLkhhbmREZXRlY3QucG9pbnQzEiUKCVRIVU1C",
-            "X0NNQxgBIAEoCzISLkhhbmREZXRlY3QucG9pbnQzEiUKCVRIVU1CX01DUBgC",
-            "IAEoCzISLkhhbmREZXRlY3QucG9pbnQzEiUKCVRIVU1CX0RJUBgDIAEoCzIS",
-            "LkhhbmREZXRlY3QucG9pbnQzEiUKCVRIVU1CX1RJUBgEIAEoCzISLkhhbmRE",
-            "ZXRlY3QucG9pbnQzEiwKEElOREVYX0ZJTkdFUl9NQ1AYBSABKAsyEi5IYW5k",
-            "RGV0ZWN0LnBvaW50MxIsChBJTkRFWF9GSU5HRVJfUElQGAYgASgLMhIuSGFu",
-            "ZERldGVjdC5wb2ludDMSLAoQSU5ERVhfRklOR0VSX0RJUBgHIAEoCzISLkhh",
-            "bmREZXRlY3QucG9pbnQzEiwKEElOREVYX0ZJTkdFUl9USVAYCCABKAsyEi5I",
-            "YW5kRGV0ZWN0LnBvaW50MxItChFNSURETEVfRklOR0VSX01DUBgJIAEoCzIS",
-            "LkhhbmREZXRlY3QucG9pbnQzEi0KEU1JRERMRV9GSU5HRVJfUElQGAogASgL",
-            "MhIuSGFuZERldGVjdC5wb2ludDMSLQoRTUlERExFX0ZJTkdFUl9ESVAYCyAB",
-            "KAsyEi5IYW5kRGV0ZWN0LnBvaW50MxItChFNSURETEVfRklOR0VSX1RJUBgM",
-            "IAEoCzISLkhhbmREZXRlY3QucG9pbnQzEisKD1JJTkdfRklOR0VSX01DUBgN",
-            "IAEoCzISLkhhbmREZXRlY3QucG9pbnQzEisKD1JJTkdfRklOR0VSX1BJUBgO",
-            "IAEoCzISLkhhbmREZXRlY3QucG9pbnQzEisKD1JJTkdfRklOR0VSX0RJUBgP",
-            "IAEoCzISLkhhbmREZXRlY3QucG9pbnQzEisKD1JJTkdfRklOR0VSX1RJUBgQ",
-            "IAEoCzISLkhhbmREZXRlY3QucG9pbnQzEiUKCVBJTktZX01DUBgRIAEoCzIS",
-            "LkhhbmREZXRlY3QucG9pbnQzEiUKCVBJTktZX1BJUBgSIAEoCzISLkhhbmRE",
-            "ZXRlY3QucG9pbnQzEiUKCVBJTktZX0RJUBgTIAEoCzISLkhhbmREZXRlY3Qu",
-            "cG9pbnQzEiUKCVBJTktZX1RJUBgUIAEoCzISLkhhbmREZXRlY3QucG9pbnQz",
-            "IioKFVByb3RvM0RDb250cm9sQ29tbWFuZBIRCgljb21tYW5kSWQYASABKAUy",
-            "WAoLSGFuZFNlcnZpY2USSQoIUHVzaEhhbmQSHC5IYW5kRGV0ZWN0LlByb3Rv",
-            "SGFuZFJlcXVlc3QaHS5IYW5kRGV0ZWN0LlByb3RvSGFuZFJlc3BvbnNlIgBi",
-            "BnByb3RvMw=="));
+            "BRIhCgVXcmlzdBgVIAEoCzISLkhhbmREZXRlY3QucG9pbnQzEiQKCFRodW1i",
+            "Q01DGAEgASgLMhIuSGFuZERldGVjdC5wb2ludDMSJAoIVGh1bWJNQ1AYAiAB",
+            "KAsyEi5IYW5kRGV0ZWN0LnBvaW50MxIkCghUaHVtYkRJUBgDIAEoCzISLkhh",
+            "bmREZXRlY3QucG9pbnQzEiQKCFRodW1iVElQGAQgASgLMhIuSGFuZERldGVj",
+            "dC5wb2ludDMSJAoISW5kZXhNQ1AYBSABKAsyEi5IYW5kRGV0ZWN0LnBvaW50",
+            "MxIkCghJbmRleFBJUBgGIAEoCzISLkhhbmREZXRlY3QucG9pbnQzEiQKCElu",
+            "ZGV4RElQGAcgASgLMhIuSGFuZERldGVjdC5wb2ludDMSJAoISW5kZXhUSVAY",
+            "CCABKAsyEi5IYW5kRGV0ZWN0LnBvaW50MxIlCglNaWRkbGVNQ1AYCSABKAsy",
+            "Ei5IYW5kRGV0ZWN0LnBvaW50MxIlCglNaWRkbGVQSVAYCiABKAsyEi5IYW5k",
+            "RGV0ZWN0LnBvaW50MxIlCglNaWRkbGVESVAYCyABKAsyEi5IYW5kRGV0ZWN0",
+            "LnBvaW50MxIlCglNaWRkbGVUSVAYDCABKAsyEi5IYW5kRGV0ZWN0LnBvaW50",
+            "MxIjCgdSaW5nTUNQGA0gASgLMhIuSGFuZERldGVjdC5wb2ludDMSIwoHUmlu",
+            "Z1BJUBgOIAEoCzISLkhhbmREZXRlY3QucG9pbnQzEiMKB1JpbmdESVAYDyAB",
+            "KAsyEi5IYW5kRGV0ZWN0LnBvaW50MxIjCgdSaW5nVElQGBAgASgLMhIuSGFu",
+            "ZERldGVjdC5wb2ludDMSJAoIUGlua3lNQ1AYESABKAsyEi5IYW5kRGV0ZWN0",
+            "LnBvaW50MxIkCghQaW5reVBJUBgSIAEoCzISLkhhbmREZXRlY3QucG9pbnQz",
+            "EiQKCFBpbmt5RElQGBMgASgLMhIuSGFuZERldGVjdC5wb2ludDMSJAoIUGlu",
+            "a3lUSVAYFCABKAsyEi5IYW5kRGV0ZWN0LnBvaW50MyIqChVQcm90bzNEQ29u",
+            "dHJvbENvbW1hbmQSEQoJY29tbWFuZElkGAEgASgFMo0BCgtIYW5kU2Vydmlj",
+            "ZRJJCghQdXNoSGFuZBIcLkhhbmREZXRlY3QuUHJvdG9IYW5kUmVxdWVzdBod",
+            "LkhhbmREZXRlY3QuUHJvdG9IYW5kUmVzcG9uc2UiABIzCgdEb0dyZWF0EhIu",
+            "SGFuZERldGVjdC5wb2ludDMaEi5IYW5kRGV0ZWN0LnBvaW50MyIAYgZwcm90",
+            "bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -62,7 +61,7 @@ namespace HandDetect {
             new pbr::GeneratedClrTypeInfo(typeof(global::HandDetect.point2), global::HandDetect.point2.Parser, new[]{ "X", "Y" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HandDetect.ProtoHandRequest), global::HandDetect.ProtoHandRequest.Parser, new[]{ "Hands", "Command" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HandDetect.ProtoHandResponse), global::HandDetect.ProtoHandResponse.Parser, new[]{ "Result" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HandDetect.ProtoHand), global::HandDetect.ProtoHand.Parser, new[]{ "HandUid", "GestureType", "HandSide", "WRIST", "THUMBCMC", "THUMBMCP", "THUMBDIP", "THUMBTIP", "INDEXFINGERMCP", "INDEXFINGERPIP", "INDEXFINGERDIP", "INDEXFINGERTIP", "MIDDLEFINGERMCP", "MIDDLEFINGERPIP", "MIDDLEFINGERDIP", "MIDDLEFINGERTIP", "RINGFINGERMCP", "RINGFINGERPIP", "RINGFINGERDIP", "RINGFINGERTIP", "PINKYMCP", "PINKYPIP", "PINKYDIP", "PINKYTIP" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::HandDetect.ProtoHand), global::HandDetect.ProtoHand.Parser, new[]{ "HandUid", "GestureType", "HandSide", "Wrist", "ThumbCMC", "ThumbMCP", "ThumbDIP", "ThumbTIP", "IndexMCP", "IndexPIP", "IndexDIP", "IndexTIP", "MiddleMCP", "MiddlePIP", "MiddleDIP", "MiddleTIP", "RingMCP", "RingPIP", "RingDIP", "RingTIP", "PinkyMCP", "PinkyPIP", "PinkyDIP", "PinkyTIP" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::HandDetect.Proto3DControlCommand), global::HandDetect.Proto3DControlCommand.Parser, new[]{ "CommandId" }, null, null, null, null)
           }));
     }
@@ -724,27 +723,27 @@ namespace HandDetect {
       handUid_ = other.handUid_;
       gestureType_ = other.gestureType_;
       handSide_ = other.handSide_;
-      wRIST_ = other.wRIST_ != null ? other.wRIST_.Clone() : null;
-      tHUMBCMC_ = other.tHUMBCMC_ != null ? other.tHUMBCMC_.Clone() : null;
-      tHUMBMCP_ = other.tHUMBMCP_ != null ? other.tHUMBMCP_.Clone() : null;
-      tHUMBDIP_ = other.tHUMBDIP_ != null ? other.tHUMBDIP_.Clone() : null;
-      tHUMBTIP_ = other.tHUMBTIP_ != null ? other.tHUMBTIP_.Clone() : null;
-      iNDEXFINGERMCP_ = other.iNDEXFINGERMCP_ != null ? other.iNDEXFINGERMCP_.Clone() : null;
-      iNDEXFINGERPIP_ = other.iNDEXFINGERPIP_ != null ? other.iNDEXFINGERPIP_.Clone() : null;
-      iNDEXFINGERDIP_ = other.iNDEXFINGERDIP_ != null ? other.iNDEXFINGERDIP_.Clone() : null;
-      iNDEXFINGERTIP_ = other.iNDEXFINGERTIP_ != null ? other.iNDEXFINGERTIP_.Clone() : null;
-      mIDDLEFINGERMCP_ = other.mIDDLEFINGERMCP_ != null ? other.mIDDLEFINGERMCP_.Clone() : null;
-      mIDDLEFINGERPIP_ = other.mIDDLEFINGERPIP_ != null ? other.mIDDLEFINGERPIP_.Clone() : null;
-      mIDDLEFINGERDIP_ = other.mIDDLEFINGERDIP_ != null ? other.mIDDLEFINGERDIP_.Clone() : null;
-      mIDDLEFINGERTIP_ = other.mIDDLEFINGERTIP_ != null ? other.mIDDLEFINGERTIP_.Clone() : null;
-      rINGFINGERMCP_ = other.rINGFINGERMCP_ != null ? other.rINGFINGERMCP_.Clone() : null;
-      rINGFINGERPIP_ = other.rINGFINGERPIP_ != null ? other.rINGFINGERPIP_.Clone() : null;
-      rINGFINGERDIP_ = other.rINGFINGERDIP_ != null ? other.rINGFINGERDIP_.Clone() : null;
-      rINGFINGERTIP_ = other.rINGFINGERTIP_ != null ? other.rINGFINGERTIP_.Clone() : null;
-      pINKYMCP_ = other.pINKYMCP_ != null ? other.pINKYMCP_.Clone() : null;
-      pINKYPIP_ = other.pINKYPIP_ != null ? other.pINKYPIP_.Clone() : null;
-      pINKYDIP_ = other.pINKYDIP_ != null ? other.pINKYDIP_.Clone() : null;
-      pINKYTIP_ = other.pINKYTIP_ != null ? other.pINKYTIP_.Clone() : null;
+      wrist_ = other.wrist_ != null ? other.wrist_.Clone() : null;
+      thumbCMC_ = other.thumbCMC_ != null ? other.thumbCMC_.Clone() : null;
+      thumbMCP_ = other.thumbMCP_ != null ? other.thumbMCP_.Clone() : null;
+      thumbDIP_ = other.thumbDIP_ != null ? other.thumbDIP_.Clone() : null;
+      thumbTIP_ = other.thumbTIP_ != null ? other.thumbTIP_.Clone() : null;
+      indexMCP_ = other.indexMCP_ != null ? other.indexMCP_.Clone() : null;
+      indexPIP_ = other.indexPIP_ != null ? other.indexPIP_.Clone() : null;
+      indexDIP_ = other.indexDIP_ != null ? other.indexDIP_.Clone() : null;
+      indexTIP_ = other.indexTIP_ != null ? other.indexTIP_.Clone() : null;
+      middleMCP_ = other.middleMCP_ != null ? other.middleMCP_.Clone() : null;
+      middlePIP_ = other.middlePIP_ != null ? other.middlePIP_.Clone() : null;
+      middleDIP_ = other.middleDIP_ != null ? other.middleDIP_.Clone() : null;
+      middleTIP_ = other.middleTIP_ != null ? other.middleTIP_.Clone() : null;
+      ringMCP_ = other.ringMCP_ != null ? other.ringMCP_.Clone() : null;
+      ringPIP_ = other.ringPIP_ != null ? other.ringPIP_.Clone() : null;
+      ringDIP_ = other.ringDIP_ != null ? other.ringDIP_.Clone() : null;
+      ringTIP_ = other.ringTIP_ != null ? other.ringTIP_.Clone() : null;
+      pinkyMCP_ = other.pinkyMCP_ != null ? other.pinkyMCP_.Clone() : null;
+      pinkyPIP_ = other.pinkyPIP_ != null ? other.pinkyPIP_.Clone() : null;
+      pinkyDIP_ = other.pinkyDIP_ != null ? other.pinkyDIP_.Clone() : null;
+      pinkyTIP_ = other.pinkyTIP_ != null ? other.pinkyTIP_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -786,249 +785,249 @@ namespace HandDetect {
       }
     }
 
-    /// <summary>Field number for the "WRIST" field.</summary>
-    public const int WRISTFieldNumber = 21;
-    private global::HandDetect.point3 wRIST_;
+    /// <summary>Field number for the "Wrist" field.</summary>
+    public const int WristFieldNumber = 21;
+    private global::HandDetect.point3 wrist_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 WRIST {
-      get { return wRIST_; }
+    public global::HandDetect.point3 Wrist {
+      get { return wrist_; }
       set {
-        wRIST_ = value;
+        wrist_ = value;
       }
     }
 
-    /// <summary>Field number for the "THUMB_CMC" field.</summary>
-    public const int THUMBCMCFieldNumber = 1;
-    private global::HandDetect.point3 tHUMBCMC_;
+    /// <summary>Field number for the "ThumbCMC" field.</summary>
+    public const int ThumbCMCFieldNumber = 1;
+    private global::HandDetect.point3 thumbCMC_;
     /// <summary>
     /// 拇指
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 THUMBCMC {
-      get { return tHUMBCMC_; }
+    public global::HandDetect.point3 ThumbCMC {
+      get { return thumbCMC_; }
       set {
-        tHUMBCMC_ = value;
+        thumbCMC_ = value;
       }
     }
 
-    /// <summary>Field number for the "THUMB_MCP" field.</summary>
-    public const int THUMBMCPFieldNumber = 2;
-    private global::HandDetect.point3 tHUMBMCP_;
+    /// <summary>Field number for the "ThumbMCP" field.</summary>
+    public const int ThumbMCPFieldNumber = 2;
+    private global::HandDetect.point3 thumbMCP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 THUMBMCP {
-      get { return tHUMBMCP_; }
+    public global::HandDetect.point3 ThumbMCP {
+      get { return thumbMCP_; }
       set {
-        tHUMBMCP_ = value;
+        thumbMCP_ = value;
       }
     }
 
-    /// <summary>Field number for the "THUMB_DIP" field.</summary>
-    public const int THUMBDIPFieldNumber = 3;
-    private global::HandDetect.point3 tHUMBDIP_;
+    /// <summary>Field number for the "ThumbDIP" field.</summary>
+    public const int ThumbDIPFieldNumber = 3;
+    private global::HandDetect.point3 thumbDIP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 THUMBDIP {
-      get { return tHUMBDIP_; }
+    public global::HandDetect.point3 ThumbDIP {
+      get { return thumbDIP_; }
       set {
-        tHUMBDIP_ = value;
+        thumbDIP_ = value;
       }
     }
 
-    /// <summary>Field number for the "THUMB_TIP" field.</summary>
-    public const int THUMBTIPFieldNumber = 4;
-    private global::HandDetect.point3 tHUMBTIP_;
+    /// <summary>Field number for the "ThumbTIP" field.</summary>
+    public const int ThumbTIPFieldNumber = 4;
+    private global::HandDetect.point3 thumbTIP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 THUMBTIP {
-      get { return tHUMBTIP_; }
+    public global::HandDetect.point3 ThumbTIP {
+      get { return thumbTIP_; }
       set {
-        tHUMBTIP_ = value;
+        thumbTIP_ = value;
       }
     }
 
-    /// <summary>Field number for the "INDEX_FINGER_MCP" field.</summary>
-    public const int INDEXFINGERMCPFieldNumber = 5;
-    private global::HandDetect.point3 iNDEXFINGERMCP_;
+    /// <summary>Field number for the "IndexMCP" field.</summary>
+    public const int IndexMCPFieldNumber = 5;
+    private global::HandDetect.point3 indexMCP_;
     /// <summary>
     /// 食指
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 INDEXFINGERMCP {
-      get { return iNDEXFINGERMCP_; }
+    public global::HandDetect.point3 IndexMCP {
+      get { return indexMCP_; }
       set {
-        iNDEXFINGERMCP_ = value;
+        indexMCP_ = value;
       }
     }
 
-    /// <summary>Field number for the "INDEX_FINGER_PIP" field.</summary>
-    public const int INDEXFINGERPIPFieldNumber = 6;
-    private global::HandDetect.point3 iNDEXFINGERPIP_;
+    /// <summary>Field number for the "IndexPIP" field.</summary>
+    public const int IndexPIPFieldNumber = 6;
+    private global::HandDetect.point3 indexPIP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 INDEXFINGERPIP {
-      get { return iNDEXFINGERPIP_; }
+    public global::HandDetect.point3 IndexPIP {
+      get { return indexPIP_; }
       set {
-        iNDEXFINGERPIP_ = value;
+        indexPIP_ = value;
       }
     }
 
-    /// <summary>Field number for the "INDEX_FINGER_DIP" field.</summary>
-    public const int INDEXFINGERDIPFieldNumber = 7;
-    private global::HandDetect.point3 iNDEXFINGERDIP_;
+    /// <summary>Field number for the "IndexDIP" field.</summary>
+    public const int IndexDIPFieldNumber = 7;
+    private global::HandDetect.point3 indexDIP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 INDEXFINGERDIP {
-      get { return iNDEXFINGERDIP_; }
+    public global::HandDetect.point3 IndexDIP {
+      get { return indexDIP_; }
       set {
-        iNDEXFINGERDIP_ = value;
+        indexDIP_ = value;
       }
     }
 
-    /// <summary>Field number for the "INDEX_FINGER_TIP" field.</summary>
-    public const int INDEXFINGERTIPFieldNumber = 8;
-    private global::HandDetect.point3 iNDEXFINGERTIP_;
+    /// <summary>Field number for the "IndexTIP" field.</summary>
+    public const int IndexTIPFieldNumber = 8;
+    private global::HandDetect.point3 indexTIP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 INDEXFINGERTIP {
-      get { return iNDEXFINGERTIP_; }
+    public global::HandDetect.point3 IndexTIP {
+      get { return indexTIP_; }
       set {
-        iNDEXFINGERTIP_ = value;
+        indexTIP_ = value;
       }
     }
 
-    /// <summary>Field number for the "MIDDLE_FINGER_MCP" field.</summary>
-    public const int MIDDLEFINGERMCPFieldNumber = 9;
-    private global::HandDetect.point3 mIDDLEFINGERMCP_;
+    /// <summary>Field number for the "MiddleMCP" field.</summary>
+    public const int MiddleMCPFieldNumber = 9;
+    private global::HandDetect.point3 middleMCP_;
     /// <summary>
     /// 中指
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 MIDDLEFINGERMCP {
-      get { return mIDDLEFINGERMCP_; }
+    public global::HandDetect.point3 MiddleMCP {
+      get { return middleMCP_; }
       set {
-        mIDDLEFINGERMCP_ = value;
+        middleMCP_ = value;
       }
     }
 
-    /// <summary>Field number for the "MIDDLE_FINGER_PIP" field.</summary>
-    public const int MIDDLEFINGERPIPFieldNumber = 10;
-    private global::HandDetect.point3 mIDDLEFINGERPIP_;
+    /// <summary>Field number for the "MiddlePIP" field.</summary>
+    public const int MiddlePIPFieldNumber = 10;
+    private global::HandDetect.point3 middlePIP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 MIDDLEFINGERPIP {
-      get { return mIDDLEFINGERPIP_; }
+    public global::HandDetect.point3 MiddlePIP {
+      get { return middlePIP_; }
       set {
-        mIDDLEFINGERPIP_ = value;
+        middlePIP_ = value;
       }
     }
 
-    /// <summary>Field number for the "MIDDLE_FINGER_DIP" field.</summary>
-    public const int MIDDLEFINGERDIPFieldNumber = 11;
-    private global::HandDetect.point3 mIDDLEFINGERDIP_;
+    /// <summary>Field number for the "MiddleDIP" field.</summary>
+    public const int MiddleDIPFieldNumber = 11;
+    private global::HandDetect.point3 middleDIP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 MIDDLEFINGERDIP {
-      get { return mIDDLEFINGERDIP_; }
+    public global::HandDetect.point3 MiddleDIP {
+      get { return middleDIP_; }
       set {
-        mIDDLEFINGERDIP_ = value;
+        middleDIP_ = value;
       }
     }
 
-    /// <summary>Field number for the "MIDDLE_FINGER_TIP" field.</summary>
-    public const int MIDDLEFINGERTIPFieldNumber = 12;
-    private global::HandDetect.point3 mIDDLEFINGERTIP_;
+    /// <summary>Field number for the "MiddleTIP" field.</summary>
+    public const int MiddleTIPFieldNumber = 12;
+    private global::HandDetect.point3 middleTIP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 MIDDLEFINGERTIP {
-      get { return mIDDLEFINGERTIP_; }
+    public global::HandDetect.point3 MiddleTIP {
+      get { return middleTIP_; }
       set {
-        mIDDLEFINGERTIP_ = value;
+        middleTIP_ = value;
       }
     }
 
-    /// <summary>Field number for the "RING_FINGER_MCP" field.</summary>
-    public const int RINGFINGERMCPFieldNumber = 13;
-    private global::HandDetect.point3 rINGFINGERMCP_;
+    /// <summary>Field number for the "RingMCP" field.</summary>
+    public const int RingMCPFieldNumber = 13;
+    private global::HandDetect.point3 ringMCP_;
     /// <summary>
     /// 无名指
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 RINGFINGERMCP {
-      get { return rINGFINGERMCP_; }
+    public global::HandDetect.point3 RingMCP {
+      get { return ringMCP_; }
       set {
-        rINGFINGERMCP_ = value;
+        ringMCP_ = value;
       }
     }
 
-    /// <summary>Field number for the "RING_FINGER_PIP" field.</summary>
-    public const int RINGFINGERPIPFieldNumber = 14;
-    private global::HandDetect.point3 rINGFINGERPIP_;
+    /// <summary>Field number for the "RingPIP" field.</summary>
+    public const int RingPIPFieldNumber = 14;
+    private global::HandDetect.point3 ringPIP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 RINGFINGERPIP {
-      get { return rINGFINGERPIP_; }
+    public global::HandDetect.point3 RingPIP {
+      get { return ringPIP_; }
       set {
-        rINGFINGERPIP_ = value;
+        ringPIP_ = value;
       }
     }
 
-    /// <summary>Field number for the "RING_FINGER_DIP" field.</summary>
-    public const int RINGFINGERDIPFieldNumber = 15;
-    private global::HandDetect.point3 rINGFINGERDIP_;
+    /// <summary>Field number for the "RingDIP" field.</summary>
+    public const int RingDIPFieldNumber = 15;
+    private global::HandDetect.point3 ringDIP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 RINGFINGERDIP {
-      get { return rINGFINGERDIP_; }
+    public global::HandDetect.point3 RingDIP {
+      get { return ringDIP_; }
       set {
-        rINGFINGERDIP_ = value;
+        ringDIP_ = value;
       }
     }
 
-    /// <summary>Field number for the "RING_FINGER_TIP" field.</summary>
-    public const int RINGFINGERTIPFieldNumber = 16;
-    private global::HandDetect.point3 rINGFINGERTIP_;
+    /// <summary>Field number for the "RingTIP" field.</summary>
+    public const int RingTIPFieldNumber = 16;
+    private global::HandDetect.point3 ringTIP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 RINGFINGERTIP {
-      get { return rINGFINGERTIP_; }
+    public global::HandDetect.point3 RingTIP {
+      get { return ringTIP_; }
       set {
-        rINGFINGERTIP_ = value;
+        ringTIP_ = value;
       }
     }
 
-    /// <summary>Field number for the "PINKY_MCP" field.</summary>
-    public const int PINKYMCPFieldNumber = 17;
-    private global::HandDetect.point3 pINKYMCP_;
+    /// <summary>Field number for the "PinkyMCP" field.</summary>
+    public const int PinkyMCPFieldNumber = 17;
+    private global::HandDetect.point3 pinkyMCP_;
     /// <summary>
     /// 小拇指
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 PINKYMCP {
-      get { return pINKYMCP_; }
+    public global::HandDetect.point3 PinkyMCP {
+      get { return pinkyMCP_; }
       set {
-        pINKYMCP_ = value;
+        pinkyMCP_ = value;
       }
     }
 
-    /// <summary>Field number for the "PINKY_PIP" field.</summary>
-    public const int PINKYPIPFieldNumber = 18;
-    private global::HandDetect.point3 pINKYPIP_;
+    /// <summary>Field number for the "PinkyPIP" field.</summary>
+    public const int PinkyPIPFieldNumber = 18;
+    private global::HandDetect.point3 pinkyPIP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 PINKYPIP {
-      get { return pINKYPIP_; }
+    public global::HandDetect.point3 PinkyPIP {
+      get { return pinkyPIP_; }
       set {
-        pINKYPIP_ = value;
+        pinkyPIP_ = value;
       }
     }
 
-    /// <summary>Field number for the "PINKY_DIP" field.</summary>
-    public const int PINKYDIPFieldNumber = 19;
-    private global::HandDetect.point3 pINKYDIP_;
+    /// <summary>Field number for the "PinkyDIP" field.</summary>
+    public const int PinkyDIPFieldNumber = 19;
+    private global::HandDetect.point3 pinkyDIP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 PINKYDIP {
-      get { return pINKYDIP_; }
+    public global::HandDetect.point3 PinkyDIP {
+      get { return pinkyDIP_; }
       set {
-        pINKYDIP_ = value;
+        pinkyDIP_ = value;
       }
     }
 
-    /// <summary>Field number for the "PINKY_TIP" field.</summary>
-    public const int PINKYTIPFieldNumber = 20;
-    private global::HandDetect.point3 pINKYTIP_;
+    /// <summary>Field number for the "PinkyTIP" field.</summary>
+    public const int PinkyTIPFieldNumber = 20;
+    private global::HandDetect.point3 pinkyTIP_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::HandDetect.point3 PINKYTIP {
-      get { return pINKYTIP_; }
+    public global::HandDetect.point3 PinkyTIP {
+      get { return pinkyTIP_; }
       set {
-        pINKYTIP_ = value;
+        pinkyTIP_ = value;
       }
     }
 
@@ -1048,27 +1047,27 @@ namespace HandDetect {
       if (HandUid != other.HandUid) return false;
       if (GestureType != other.GestureType) return false;
       if (HandSide != other.HandSide) return false;
-      if (!object.Equals(WRIST, other.WRIST)) return false;
-      if (!object.Equals(THUMBCMC, other.THUMBCMC)) return false;
-      if (!object.Equals(THUMBMCP, other.THUMBMCP)) return false;
-      if (!object.Equals(THUMBDIP, other.THUMBDIP)) return false;
-      if (!object.Equals(THUMBTIP, other.THUMBTIP)) return false;
-      if (!object.Equals(INDEXFINGERMCP, other.INDEXFINGERMCP)) return false;
-      if (!object.Equals(INDEXFINGERPIP, other.INDEXFINGERPIP)) return false;
-      if (!object.Equals(INDEXFINGERDIP, other.INDEXFINGERDIP)) return false;
-      if (!object.Equals(INDEXFINGERTIP, other.INDEXFINGERTIP)) return false;
-      if (!object.Equals(MIDDLEFINGERMCP, other.MIDDLEFINGERMCP)) return false;
-      if (!object.Equals(MIDDLEFINGERPIP, other.MIDDLEFINGERPIP)) return false;
-      if (!object.Equals(MIDDLEFINGERDIP, other.MIDDLEFINGERDIP)) return false;
-      if (!object.Equals(MIDDLEFINGERTIP, other.MIDDLEFINGERTIP)) return false;
-      if (!object.Equals(RINGFINGERMCP, other.RINGFINGERMCP)) return false;
-      if (!object.Equals(RINGFINGERPIP, other.RINGFINGERPIP)) return false;
-      if (!object.Equals(RINGFINGERDIP, other.RINGFINGERDIP)) return false;
-      if (!object.Equals(RINGFINGERTIP, other.RINGFINGERTIP)) return false;
-      if (!object.Equals(PINKYMCP, other.PINKYMCP)) return false;
-      if (!object.Equals(PINKYPIP, other.PINKYPIP)) return false;
-      if (!object.Equals(PINKYDIP, other.PINKYDIP)) return false;
-      if (!object.Equals(PINKYTIP, other.PINKYTIP)) return false;
+      if (!object.Equals(Wrist, other.Wrist)) return false;
+      if (!object.Equals(ThumbCMC, other.ThumbCMC)) return false;
+      if (!object.Equals(ThumbMCP, other.ThumbMCP)) return false;
+      if (!object.Equals(ThumbDIP, other.ThumbDIP)) return false;
+      if (!object.Equals(ThumbTIP, other.ThumbTIP)) return false;
+      if (!object.Equals(IndexMCP, other.IndexMCP)) return false;
+      if (!object.Equals(IndexPIP, other.IndexPIP)) return false;
+      if (!object.Equals(IndexDIP, other.IndexDIP)) return false;
+      if (!object.Equals(IndexTIP, other.IndexTIP)) return false;
+      if (!object.Equals(MiddleMCP, other.MiddleMCP)) return false;
+      if (!object.Equals(MiddlePIP, other.MiddlePIP)) return false;
+      if (!object.Equals(MiddleDIP, other.MiddleDIP)) return false;
+      if (!object.Equals(MiddleTIP, other.MiddleTIP)) return false;
+      if (!object.Equals(RingMCP, other.RingMCP)) return false;
+      if (!object.Equals(RingPIP, other.RingPIP)) return false;
+      if (!object.Equals(RingDIP, other.RingDIP)) return false;
+      if (!object.Equals(RingTIP, other.RingTIP)) return false;
+      if (!object.Equals(PinkyMCP, other.PinkyMCP)) return false;
+      if (!object.Equals(PinkyPIP, other.PinkyPIP)) return false;
+      if (!object.Equals(PinkyDIP, other.PinkyDIP)) return false;
+      if (!object.Equals(PinkyTIP, other.PinkyTIP)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1078,27 +1077,27 @@ namespace HandDetect {
       if (HandUid != 0) hash ^= HandUid.GetHashCode();
       if (GestureType != 0) hash ^= GestureType.GetHashCode();
       if (HandSide != 0) hash ^= HandSide.GetHashCode();
-      if (wRIST_ != null) hash ^= WRIST.GetHashCode();
-      if (tHUMBCMC_ != null) hash ^= THUMBCMC.GetHashCode();
-      if (tHUMBMCP_ != null) hash ^= THUMBMCP.GetHashCode();
-      if (tHUMBDIP_ != null) hash ^= THUMBDIP.GetHashCode();
-      if (tHUMBTIP_ != null) hash ^= THUMBTIP.GetHashCode();
-      if (iNDEXFINGERMCP_ != null) hash ^= INDEXFINGERMCP.GetHashCode();
-      if (iNDEXFINGERPIP_ != null) hash ^= INDEXFINGERPIP.GetHashCode();
-      if (iNDEXFINGERDIP_ != null) hash ^= INDEXFINGERDIP.GetHashCode();
-      if (iNDEXFINGERTIP_ != null) hash ^= INDEXFINGERTIP.GetHashCode();
-      if (mIDDLEFINGERMCP_ != null) hash ^= MIDDLEFINGERMCP.GetHashCode();
-      if (mIDDLEFINGERPIP_ != null) hash ^= MIDDLEFINGERPIP.GetHashCode();
-      if (mIDDLEFINGERDIP_ != null) hash ^= MIDDLEFINGERDIP.GetHashCode();
-      if (mIDDLEFINGERTIP_ != null) hash ^= MIDDLEFINGERTIP.GetHashCode();
-      if (rINGFINGERMCP_ != null) hash ^= RINGFINGERMCP.GetHashCode();
-      if (rINGFINGERPIP_ != null) hash ^= RINGFINGERPIP.GetHashCode();
-      if (rINGFINGERDIP_ != null) hash ^= RINGFINGERDIP.GetHashCode();
-      if (rINGFINGERTIP_ != null) hash ^= RINGFINGERTIP.GetHashCode();
-      if (pINKYMCP_ != null) hash ^= PINKYMCP.GetHashCode();
-      if (pINKYPIP_ != null) hash ^= PINKYPIP.GetHashCode();
-      if (pINKYDIP_ != null) hash ^= PINKYDIP.GetHashCode();
-      if (pINKYTIP_ != null) hash ^= PINKYTIP.GetHashCode();
+      if (wrist_ != null) hash ^= Wrist.GetHashCode();
+      if (thumbCMC_ != null) hash ^= ThumbCMC.GetHashCode();
+      if (thumbMCP_ != null) hash ^= ThumbMCP.GetHashCode();
+      if (thumbDIP_ != null) hash ^= ThumbDIP.GetHashCode();
+      if (thumbTIP_ != null) hash ^= ThumbTIP.GetHashCode();
+      if (indexMCP_ != null) hash ^= IndexMCP.GetHashCode();
+      if (indexPIP_ != null) hash ^= IndexPIP.GetHashCode();
+      if (indexDIP_ != null) hash ^= IndexDIP.GetHashCode();
+      if (indexTIP_ != null) hash ^= IndexTIP.GetHashCode();
+      if (middleMCP_ != null) hash ^= MiddleMCP.GetHashCode();
+      if (middlePIP_ != null) hash ^= MiddlePIP.GetHashCode();
+      if (middleDIP_ != null) hash ^= MiddleDIP.GetHashCode();
+      if (middleTIP_ != null) hash ^= MiddleTIP.GetHashCode();
+      if (ringMCP_ != null) hash ^= RingMCP.GetHashCode();
+      if (ringPIP_ != null) hash ^= RingPIP.GetHashCode();
+      if (ringDIP_ != null) hash ^= RingDIP.GetHashCode();
+      if (ringTIP_ != null) hash ^= RingTIP.GetHashCode();
+      if (pinkyMCP_ != null) hash ^= PinkyMCP.GetHashCode();
+      if (pinkyPIP_ != null) hash ^= PinkyPIP.GetHashCode();
+      if (pinkyDIP_ != null) hash ^= PinkyDIP.GetHashCode();
+      if (pinkyTIP_ != null) hash ^= PinkyTIP.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1112,89 +1111,89 @@ namespace HandDetect {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (tHUMBCMC_ != null) {
+      if (thumbCMC_ != null) {
         output.WriteRawTag(10);
-        output.WriteMessage(THUMBCMC);
+        output.WriteMessage(ThumbCMC);
       }
-      if (tHUMBMCP_ != null) {
+      if (thumbMCP_ != null) {
         output.WriteRawTag(18);
-        output.WriteMessage(THUMBMCP);
+        output.WriteMessage(ThumbMCP);
       }
-      if (tHUMBDIP_ != null) {
+      if (thumbDIP_ != null) {
         output.WriteRawTag(26);
-        output.WriteMessage(THUMBDIP);
+        output.WriteMessage(ThumbDIP);
       }
-      if (tHUMBTIP_ != null) {
+      if (thumbTIP_ != null) {
         output.WriteRawTag(34);
-        output.WriteMessage(THUMBTIP);
+        output.WriteMessage(ThumbTIP);
       }
-      if (iNDEXFINGERMCP_ != null) {
+      if (indexMCP_ != null) {
         output.WriteRawTag(42);
-        output.WriteMessage(INDEXFINGERMCP);
+        output.WriteMessage(IndexMCP);
       }
-      if (iNDEXFINGERPIP_ != null) {
+      if (indexPIP_ != null) {
         output.WriteRawTag(50);
-        output.WriteMessage(INDEXFINGERPIP);
+        output.WriteMessage(IndexPIP);
       }
-      if (iNDEXFINGERDIP_ != null) {
+      if (indexDIP_ != null) {
         output.WriteRawTag(58);
-        output.WriteMessage(INDEXFINGERDIP);
+        output.WriteMessage(IndexDIP);
       }
-      if (iNDEXFINGERTIP_ != null) {
+      if (indexTIP_ != null) {
         output.WriteRawTag(66);
-        output.WriteMessage(INDEXFINGERTIP);
+        output.WriteMessage(IndexTIP);
       }
-      if (mIDDLEFINGERMCP_ != null) {
+      if (middleMCP_ != null) {
         output.WriteRawTag(74);
-        output.WriteMessage(MIDDLEFINGERMCP);
+        output.WriteMessage(MiddleMCP);
       }
-      if (mIDDLEFINGERPIP_ != null) {
+      if (middlePIP_ != null) {
         output.WriteRawTag(82);
-        output.WriteMessage(MIDDLEFINGERPIP);
+        output.WriteMessage(MiddlePIP);
       }
-      if (mIDDLEFINGERDIP_ != null) {
+      if (middleDIP_ != null) {
         output.WriteRawTag(90);
-        output.WriteMessage(MIDDLEFINGERDIP);
+        output.WriteMessage(MiddleDIP);
       }
-      if (mIDDLEFINGERTIP_ != null) {
+      if (middleTIP_ != null) {
         output.WriteRawTag(98);
-        output.WriteMessage(MIDDLEFINGERTIP);
+        output.WriteMessage(MiddleTIP);
       }
-      if (rINGFINGERMCP_ != null) {
+      if (ringMCP_ != null) {
         output.WriteRawTag(106);
-        output.WriteMessage(RINGFINGERMCP);
+        output.WriteMessage(RingMCP);
       }
-      if (rINGFINGERPIP_ != null) {
+      if (ringPIP_ != null) {
         output.WriteRawTag(114);
-        output.WriteMessage(RINGFINGERPIP);
+        output.WriteMessage(RingPIP);
       }
-      if (rINGFINGERDIP_ != null) {
+      if (ringDIP_ != null) {
         output.WriteRawTag(122);
-        output.WriteMessage(RINGFINGERDIP);
+        output.WriteMessage(RingDIP);
       }
-      if (rINGFINGERTIP_ != null) {
+      if (ringTIP_ != null) {
         output.WriteRawTag(130, 1);
-        output.WriteMessage(RINGFINGERTIP);
+        output.WriteMessage(RingTIP);
       }
-      if (pINKYMCP_ != null) {
+      if (pinkyMCP_ != null) {
         output.WriteRawTag(138, 1);
-        output.WriteMessage(PINKYMCP);
+        output.WriteMessage(PinkyMCP);
       }
-      if (pINKYPIP_ != null) {
+      if (pinkyPIP_ != null) {
         output.WriteRawTag(146, 1);
-        output.WriteMessage(PINKYPIP);
+        output.WriteMessage(PinkyPIP);
       }
-      if (pINKYDIP_ != null) {
+      if (pinkyDIP_ != null) {
         output.WriteRawTag(154, 1);
-        output.WriteMessage(PINKYDIP);
+        output.WriteMessage(PinkyDIP);
       }
-      if (pINKYTIP_ != null) {
+      if (pinkyTIP_ != null) {
         output.WriteRawTag(162, 1);
-        output.WriteMessage(PINKYTIP);
+        output.WriteMessage(PinkyTIP);
       }
-      if (wRIST_ != null) {
+      if (wrist_ != null) {
         output.WriteRawTag(170, 1);
-        output.WriteMessage(WRIST);
+        output.WriteMessage(Wrist);
       }
       if (HandSide != 0) {
         output.WriteRawTag(176, 1);
@@ -1225,68 +1224,68 @@ namespace HandDetect {
       if (HandSide != 0) {
         size += 2 + pb::CodedOutputStream.ComputeInt32Size(HandSide);
       }
-      if (wRIST_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(WRIST);
+      if (wrist_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(Wrist);
       }
-      if (tHUMBCMC_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(THUMBCMC);
+      if (thumbCMC_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ThumbCMC);
       }
-      if (tHUMBMCP_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(THUMBMCP);
+      if (thumbMCP_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ThumbMCP);
       }
-      if (tHUMBDIP_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(THUMBDIP);
+      if (thumbDIP_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ThumbDIP);
       }
-      if (tHUMBTIP_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(THUMBTIP);
+      if (thumbTIP_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ThumbTIP);
       }
-      if (iNDEXFINGERMCP_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(INDEXFINGERMCP);
+      if (indexMCP_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(IndexMCP);
       }
-      if (iNDEXFINGERPIP_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(INDEXFINGERPIP);
+      if (indexPIP_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(IndexPIP);
       }
-      if (iNDEXFINGERDIP_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(INDEXFINGERDIP);
+      if (indexDIP_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(IndexDIP);
       }
-      if (iNDEXFINGERTIP_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(INDEXFINGERTIP);
+      if (indexTIP_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(IndexTIP);
       }
-      if (mIDDLEFINGERMCP_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MIDDLEFINGERMCP);
+      if (middleMCP_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MiddleMCP);
       }
-      if (mIDDLEFINGERPIP_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MIDDLEFINGERPIP);
+      if (middlePIP_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MiddlePIP);
       }
-      if (mIDDLEFINGERDIP_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MIDDLEFINGERDIP);
+      if (middleDIP_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MiddleDIP);
       }
-      if (mIDDLEFINGERTIP_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MIDDLEFINGERTIP);
+      if (middleTIP_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(MiddleTIP);
       }
-      if (rINGFINGERMCP_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(RINGFINGERMCP);
+      if (ringMCP_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(RingMCP);
       }
-      if (rINGFINGERPIP_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(RINGFINGERPIP);
+      if (ringPIP_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(RingPIP);
       }
-      if (rINGFINGERDIP_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(RINGFINGERDIP);
+      if (ringDIP_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(RingDIP);
       }
-      if (rINGFINGERTIP_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(RINGFINGERTIP);
+      if (ringTIP_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(RingTIP);
       }
-      if (pINKYMCP_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PINKYMCP);
+      if (pinkyMCP_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PinkyMCP);
       }
-      if (pINKYPIP_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PINKYPIP);
+      if (pinkyPIP_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PinkyPIP);
       }
-      if (pINKYDIP_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PINKYDIP);
+      if (pinkyDIP_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PinkyDIP);
       }
-      if (pINKYTIP_ != null) {
-        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PINKYTIP);
+      if (pinkyTIP_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(PinkyTIP);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1308,131 +1307,131 @@ namespace HandDetect {
       if (other.HandSide != 0) {
         HandSide = other.HandSide;
       }
-      if (other.wRIST_ != null) {
-        if (wRIST_ == null) {
-          WRIST = new global::HandDetect.point3();
+      if (other.wrist_ != null) {
+        if (wrist_ == null) {
+          Wrist = new global::HandDetect.point3();
         }
-        WRIST.MergeFrom(other.WRIST);
+        Wrist.MergeFrom(other.Wrist);
       }
-      if (other.tHUMBCMC_ != null) {
-        if (tHUMBCMC_ == null) {
-          THUMBCMC = new global::HandDetect.point3();
+      if (other.thumbCMC_ != null) {
+        if (thumbCMC_ == null) {
+          ThumbCMC = new global::HandDetect.point3();
         }
-        THUMBCMC.MergeFrom(other.THUMBCMC);
+        ThumbCMC.MergeFrom(other.ThumbCMC);
       }
-      if (other.tHUMBMCP_ != null) {
-        if (tHUMBMCP_ == null) {
-          THUMBMCP = new global::HandDetect.point3();
+      if (other.thumbMCP_ != null) {
+        if (thumbMCP_ == null) {
+          ThumbMCP = new global::HandDetect.point3();
         }
-        THUMBMCP.MergeFrom(other.THUMBMCP);
+        ThumbMCP.MergeFrom(other.ThumbMCP);
       }
-      if (other.tHUMBDIP_ != null) {
-        if (tHUMBDIP_ == null) {
-          THUMBDIP = new global::HandDetect.point3();
+      if (other.thumbDIP_ != null) {
+        if (thumbDIP_ == null) {
+          ThumbDIP = new global::HandDetect.point3();
         }
-        THUMBDIP.MergeFrom(other.THUMBDIP);
+        ThumbDIP.MergeFrom(other.ThumbDIP);
       }
-      if (other.tHUMBTIP_ != null) {
-        if (tHUMBTIP_ == null) {
-          THUMBTIP = new global::HandDetect.point3();
+      if (other.thumbTIP_ != null) {
+        if (thumbTIP_ == null) {
+          ThumbTIP = new global::HandDetect.point3();
         }
-        THUMBTIP.MergeFrom(other.THUMBTIP);
+        ThumbTIP.MergeFrom(other.ThumbTIP);
       }
-      if (other.iNDEXFINGERMCP_ != null) {
-        if (iNDEXFINGERMCP_ == null) {
-          INDEXFINGERMCP = new global::HandDetect.point3();
+      if (other.indexMCP_ != null) {
+        if (indexMCP_ == null) {
+          IndexMCP = new global::HandDetect.point3();
         }
-        INDEXFINGERMCP.MergeFrom(other.INDEXFINGERMCP);
+        IndexMCP.MergeFrom(other.IndexMCP);
       }
-      if (other.iNDEXFINGERPIP_ != null) {
-        if (iNDEXFINGERPIP_ == null) {
-          INDEXFINGERPIP = new global::HandDetect.point3();
+      if (other.indexPIP_ != null) {
+        if (indexPIP_ == null) {
+          IndexPIP = new global::HandDetect.point3();
         }
-        INDEXFINGERPIP.MergeFrom(other.INDEXFINGERPIP);
+        IndexPIP.MergeFrom(other.IndexPIP);
       }
-      if (other.iNDEXFINGERDIP_ != null) {
-        if (iNDEXFINGERDIP_ == null) {
-          INDEXFINGERDIP = new global::HandDetect.point3();
+      if (other.indexDIP_ != null) {
+        if (indexDIP_ == null) {
+          IndexDIP = new global::HandDetect.point3();
         }
-        INDEXFINGERDIP.MergeFrom(other.INDEXFINGERDIP);
+        IndexDIP.MergeFrom(other.IndexDIP);
       }
-      if (other.iNDEXFINGERTIP_ != null) {
-        if (iNDEXFINGERTIP_ == null) {
-          INDEXFINGERTIP = new global::HandDetect.point3();
+      if (other.indexTIP_ != null) {
+        if (indexTIP_ == null) {
+          IndexTIP = new global::HandDetect.point3();
         }
-        INDEXFINGERTIP.MergeFrom(other.INDEXFINGERTIP);
+        IndexTIP.MergeFrom(other.IndexTIP);
       }
-      if (other.mIDDLEFINGERMCP_ != null) {
-        if (mIDDLEFINGERMCP_ == null) {
-          MIDDLEFINGERMCP = new global::HandDetect.point3();
+      if (other.middleMCP_ != null) {
+        if (middleMCP_ == null) {
+          MiddleMCP = new global::HandDetect.point3();
         }
-        MIDDLEFINGERMCP.MergeFrom(other.MIDDLEFINGERMCP);
+        MiddleMCP.MergeFrom(other.MiddleMCP);
       }
-      if (other.mIDDLEFINGERPIP_ != null) {
-        if (mIDDLEFINGERPIP_ == null) {
-          MIDDLEFINGERPIP = new global::HandDetect.point3();
+      if (other.middlePIP_ != null) {
+        if (middlePIP_ == null) {
+          MiddlePIP = new global::HandDetect.point3();
         }
-        MIDDLEFINGERPIP.MergeFrom(other.MIDDLEFINGERPIP);
+        MiddlePIP.MergeFrom(other.MiddlePIP);
       }
-      if (other.mIDDLEFINGERDIP_ != null) {
-        if (mIDDLEFINGERDIP_ == null) {
-          MIDDLEFINGERDIP = new global::HandDetect.point3();
+      if (other.middleDIP_ != null) {
+        if (middleDIP_ == null) {
+          MiddleDIP = new global::HandDetect.point3();
         }
-        MIDDLEFINGERDIP.MergeFrom(other.MIDDLEFINGERDIP);
+        MiddleDIP.MergeFrom(other.MiddleDIP);
       }
-      if (other.mIDDLEFINGERTIP_ != null) {
-        if (mIDDLEFINGERTIP_ == null) {
-          MIDDLEFINGERTIP = new global::HandDetect.point3();
+      if (other.middleTIP_ != null) {
+        if (middleTIP_ == null) {
+          MiddleTIP = new global::HandDetect.point3();
         }
-        MIDDLEFINGERTIP.MergeFrom(other.MIDDLEFINGERTIP);
+        MiddleTIP.MergeFrom(other.MiddleTIP);
       }
-      if (other.rINGFINGERMCP_ != null) {
-        if (rINGFINGERMCP_ == null) {
-          RINGFINGERMCP = new global::HandDetect.point3();
+      if (other.ringMCP_ != null) {
+        if (ringMCP_ == null) {
+          RingMCP = new global::HandDetect.point3();
         }
-        RINGFINGERMCP.MergeFrom(other.RINGFINGERMCP);
+        RingMCP.MergeFrom(other.RingMCP);
       }
-      if (other.rINGFINGERPIP_ != null) {
-        if (rINGFINGERPIP_ == null) {
-          RINGFINGERPIP = new global::HandDetect.point3();
+      if (other.ringPIP_ != null) {
+        if (ringPIP_ == null) {
+          RingPIP = new global::HandDetect.point3();
         }
-        RINGFINGERPIP.MergeFrom(other.RINGFINGERPIP);
+        RingPIP.MergeFrom(other.RingPIP);
       }
-      if (other.rINGFINGERDIP_ != null) {
-        if (rINGFINGERDIP_ == null) {
-          RINGFINGERDIP = new global::HandDetect.point3();
+      if (other.ringDIP_ != null) {
+        if (ringDIP_ == null) {
+          RingDIP = new global::HandDetect.point3();
         }
-        RINGFINGERDIP.MergeFrom(other.RINGFINGERDIP);
+        RingDIP.MergeFrom(other.RingDIP);
       }
-      if (other.rINGFINGERTIP_ != null) {
-        if (rINGFINGERTIP_ == null) {
-          RINGFINGERTIP = new global::HandDetect.point3();
+      if (other.ringTIP_ != null) {
+        if (ringTIP_ == null) {
+          RingTIP = new global::HandDetect.point3();
         }
-        RINGFINGERTIP.MergeFrom(other.RINGFINGERTIP);
+        RingTIP.MergeFrom(other.RingTIP);
       }
-      if (other.pINKYMCP_ != null) {
-        if (pINKYMCP_ == null) {
-          PINKYMCP = new global::HandDetect.point3();
+      if (other.pinkyMCP_ != null) {
+        if (pinkyMCP_ == null) {
+          PinkyMCP = new global::HandDetect.point3();
         }
-        PINKYMCP.MergeFrom(other.PINKYMCP);
+        PinkyMCP.MergeFrom(other.PinkyMCP);
       }
-      if (other.pINKYPIP_ != null) {
-        if (pINKYPIP_ == null) {
-          PINKYPIP = new global::HandDetect.point3();
+      if (other.pinkyPIP_ != null) {
+        if (pinkyPIP_ == null) {
+          PinkyPIP = new global::HandDetect.point3();
         }
-        PINKYPIP.MergeFrom(other.PINKYPIP);
+        PinkyPIP.MergeFrom(other.PinkyPIP);
       }
-      if (other.pINKYDIP_ != null) {
-        if (pINKYDIP_ == null) {
-          PINKYDIP = new global::HandDetect.point3();
+      if (other.pinkyDIP_ != null) {
+        if (pinkyDIP_ == null) {
+          PinkyDIP = new global::HandDetect.point3();
         }
-        PINKYDIP.MergeFrom(other.PINKYDIP);
+        PinkyDIP.MergeFrom(other.PinkyDIP);
       }
-      if (other.pINKYTIP_ != null) {
-        if (pINKYTIP_ == null) {
-          PINKYTIP = new global::HandDetect.point3();
+      if (other.pinkyTIP_ != null) {
+        if (pinkyTIP_ == null) {
+          PinkyTIP = new global::HandDetect.point3();
         }
-        PINKYTIP.MergeFrom(other.PINKYTIP);
+        PinkyTIP.MergeFrom(other.PinkyTIP);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1446,150 +1445,150 @@ namespace HandDetect {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (tHUMBCMC_ == null) {
-              THUMBCMC = new global::HandDetect.point3();
+            if (thumbCMC_ == null) {
+              ThumbCMC = new global::HandDetect.point3();
             }
-            input.ReadMessage(THUMBCMC);
+            input.ReadMessage(ThumbCMC);
             break;
           }
           case 18: {
-            if (tHUMBMCP_ == null) {
-              THUMBMCP = new global::HandDetect.point3();
+            if (thumbMCP_ == null) {
+              ThumbMCP = new global::HandDetect.point3();
             }
-            input.ReadMessage(THUMBMCP);
+            input.ReadMessage(ThumbMCP);
             break;
           }
           case 26: {
-            if (tHUMBDIP_ == null) {
-              THUMBDIP = new global::HandDetect.point3();
+            if (thumbDIP_ == null) {
+              ThumbDIP = new global::HandDetect.point3();
             }
-            input.ReadMessage(THUMBDIP);
+            input.ReadMessage(ThumbDIP);
             break;
           }
           case 34: {
-            if (tHUMBTIP_ == null) {
-              THUMBTIP = new global::HandDetect.point3();
+            if (thumbTIP_ == null) {
+              ThumbTIP = new global::HandDetect.point3();
             }
-            input.ReadMessage(THUMBTIP);
+            input.ReadMessage(ThumbTIP);
             break;
           }
           case 42: {
-            if (iNDEXFINGERMCP_ == null) {
-              INDEXFINGERMCP = new global::HandDetect.point3();
+            if (indexMCP_ == null) {
+              IndexMCP = new global::HandDetect.point3();
             }
-            input.ReadMessage(INDEXFINGERMCP);
+            input.ReadMessage(IndexMCP);
             break;
           }
           case 50: {
-            if (iNDEXFINGERPIP_ == null) {
-              INDEXFINGERPIP = new global::HandDetect.point3();
+            if (indexPIP_ == null) {
+              IndexPIP = new global::HandDetect.point3();
             }
-            input.ReadMessage(INDEXFINGERPIP);
+            input.ReadMessage(IndexPIP);
             break;
           }
           case 58: {
-            if (iNDEXFINGERDIP_ == null) {
-              INDEXFINGERDIP = new global::HandDetect.point3();
+            if (indexDIP_ == null) {
+              IndexDIP = new global::HandDetect.point3();
             }
-            input.ReadMessage(INDEXFINGERDIP);
+            input.ReadMessage(IndexDIP);
             break;
           }
           case 66: {
-            if (iNDEXFINGERTIP_ == null) {
-              INDEXFINGERTIP = new global::HandDetect.point3();
+            if (indexTIP_ == null) {
+              IndexTIP = new global::HandDetect.point3();
             }
-            input.ReadMessage(INDEXFINGERTIP);
+            input.ReadMessage(IndexTIP);
             break;
           }
           case 74: {
-            if (mIDDLEFINGERMCP_ == null) {
-              MIDDLEFINGERMCP = new global::HandDetect.point3();
+            if (middleMCP_ == null) {
+              MiddleMCP = new global::HandDetect.point3();
             }
-            input.ReadMessage(MIDDLEFINGERMCP);
+            input.ReadMessage(MiddleMCP);
             break;
           }
           case 82: {
-            if (mIDDLEFINGERPIP_ == null) {
-              MIDDLEFINGERPIP = new global::HandDetect.point3();
+            if (middlePIP_ == null) {
+              MiddlePIP = new global::HandDetect.point3();
             }
-            input.ReadMessage(MIDDLEFINGERPIP);
+            input.ReadMessage(MiddlePIP);
             break;
           }
           case 90: {
-            if (mIDDLEFINGERDIP_ == null) {
-              MIDDLEFINGERDIP = new global::HandDetect.point3();
+            if (middleDIP_ == null) {
+              MiddleDIP = new global::HandDetect.point3();
             }
-            input.ReadMessage(MIDDLEFINGERDIP);
+            input.ReadMessage(MiddleDIP);
             break;
           }
           case 98: {
-            if (mIDDLEFINGERTIP_ == null) {
-              MIDDLEFINGERTIP = new global::HandDetect.point3();
+            if (middleTIP_ == null) {
+              MiddleTIP = new global::HandDetect.point3();
             }
-            input.ReadMessage(MIDDLEFINGERTIP);
+            input.ReadMessage(MiddleTIP);
             break;
           }
           case 106: {
-            if (rINGFINGERMCP_ == null) {
-              RINGFINGERMCP = new global::HandDetect.point3();
+            if (ringMCP_ == null) {
+              RingMCP = new global::HandDetect.point3();
             }
-            input.ReadMessage(RINGFINGERMCP);
+            input.ReadMessage(RingMCP);
             break;
           }
           case 114: {
-            if (rINGFINGERPIP_ == null) {
-              RINGFINGERPIP = new global::HandDetect.point3();
+            if (ringPIP_ == null) {
+              RingPIP = new global::HandDetect.point3();
             }
-            input.ReadMessage(RINGFINGERPIP);
+            input.ReadMessage(RingPIP);
             break;
           }
           case 122: {
-            if (rINGFINGERDIP_ == null) {
-              RINGFINGERDIP = new global::HandDetect.point3();
+            if (ringDIP_ == null) {
+              RingDIP = new global::HandDetect.point3();
             }
-            input.ReadMessage(RINGFINGERDIP);
+            input.ReadMessage(RingDIP);
             break;
           }
           case 130: {
-            if (rINGFINGERTIP_ == null) {
-              RINGFINGERTIP = new global::HandDetect.point3();
+            if (ringTIP_ == null) {
+              RingTIP = new global::HandDetect.point3();
             }
-            input.ReadMessage(RINGFINGERTIP);
+            input.ReadMessage(RingTIP);
             break;
           }
           case 138: {
-            if (pINKYMCP_ == null) {
-              PINKYMCP = new global::HandDetect.point3();
+            if (pinkyMCP_ == null) {
+              PinkyMCP = new global::HandDetect.point3();
             }
-            input.ReadMessage(PINKYMCP);
+            input.ReadMessage(PinkyMCP);
             break;
           }
           case 146: {
-            if (pINKYPIP_ == null) {
-              PINKYPIP = new global::HandDetect.point3();
+            if (pinkyPIP_ == null) {
+              PinkyPIP = new global::HandDetect.point3();
             }
-            input.ReadMessage(PINKYPIP);
+            input.ReadMessage(PinkyPIP);
             break;
           }
           case 154: {
-            if (pINKYDIP_ == null) {
-              PINKYDIP = new global::HandDetect.point3();
+            if (pinkyDIP_ == null) {
+              PinkyDIP = new global::HandDetect.point3();
             }
-            input.ReadMessage(PINKYDIP);
+            input.ReadMessage(PinkyDIP);
             break;
           }
           case 162: {
-            if (pINKYTIP_ == null) {
-              PINKYTIP = new global::HandDetect.point3();
+            if (pinkyTIP_ == null) {
+              PinkyTIP = new global::HandDetect.point3();
             }
-            input.ReadMessage(PINKYTIP);
+            input.ReadMessage(PinkyTIP);
             break;
           }
           case 170: {
-            if (wRIST_ == null) {
-              WRIST = new global::HandDetect.point3();
+            if (wrist_ == null) {
+              Wrist = new global::HandDetect.point3();
             }
-            input.ReadMessage(WRIST);
+            input.ReadMessage(Wrist);
             break;
           }
           case 176: {

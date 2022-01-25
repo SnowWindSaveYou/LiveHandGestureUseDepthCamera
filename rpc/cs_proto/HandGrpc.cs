@@ -49,6 +49,8 @@ namespace HandDetect {
     static readonly grpc::Marshaller<global::HandDetect.ProtoHandRequest> __Marshaller_HandDetect_ProtoHandRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HandDetect.ProtoHandRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::HandDetect.ProtoHandResponse> __Marshaller_HandDetect_ProtoHandResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HandDetect.ProtoHandResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::HandDetect.point3> __Marshaller_HandDetect_point3 = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HandDetect.point3.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::HandDetect.ProtoHandRequest, global::HandDetect.ProtoHandResponse> __Method_PushHand = new grpc::Method<global::HandDetect.ProtoHandRequest, global::HandDetect.ProtoHandResponse>(
@@ -57,6 +59,14 @@ namespace HandDetect {
         "PushHand",
         __Marshaller_HandDetect_ProtoHandRequest,
         __Marshaller_HandDetect_ProtoHandResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::HandDetect.point3, global::HandDetect.point3> __Method_DoGreat = new grpc::Method<global::HandDetect.point3, global::HandDetect.point3>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "DoGreat",
+        __Marshaller_HandDetect_point3,
+        __Marshaller_HandDetect_point3);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -70,6 +80,12 @@ namespace HandDetect {
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::HandDetect.ProtoHandResponse> PushHand(global::HandDetect.ProtoHandRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::HandDetect.point3> DoGreat(global::HandDetect.point3 request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -123,6 +139,26 @@ namespace HandDetect {
       {
         return CallInvoker.AsyncUnaryCall(__Method_PushHand, null, options, request);
       }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::HandDetect.point3 DoGreat(global::HandDetect.point3 request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DoGreat(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::HandDetect.point3 DoGreat(global::HandDetect.point3 request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_DoGreat, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::HandDetect.point3> DoGreatAsync(global::HandDetect.point3 request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return DoGreatAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::HandDetect.point3> DoGreatAsync(global::HandDetect.point3 request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_DoGreat, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override HandServiceClient NewInstance(ClientBaseConfiguration configuration)
@@ -137,7 +173,8 @@ namespace HandDetect {
     public static grpc::ServerServiceDefinition BindService(HandServiceBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_PushHand, serviceImpl.PushHand).Build();
+          .AddMethod(__Method_PushHand, serviceImpl.PushHand)
+          .AddMethod(__Method_DoGreat, serviceImpl.DoGreat).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
@@ -148,6 +185,7 @@ namespace HandDetect {
     public static void BindService(grpc::ServiceBinderBase serviceBinder, HandServiceBase serviceImpl)
     {
       serviceBinder.AddMethod(__Method_PushHand, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::HandDetect.ProtoHandRequest, global::HandDetect.ProtoHandResponse>(serviceImpl.PushHand));
+      serviceBinder.AddMethod(__Method_DoGreat, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::HandDetect.point3, global::HandDetect.point3>(serviceImpl.DoGreat));
     }
 
   }

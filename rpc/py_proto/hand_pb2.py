@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   syntax='proto3',
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_pb=b'\n\nhand.proto\x12\nHandDetect\")\n\x06point3\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\"\x1e\n\x06point2\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\"l\n\x10ProtoHandRequest\x12$\n\x05hands\x18\x01 \x03(\x0b\x32\x15.HandDetect.ProtoHand\x12\x32\n\x07\x63ommand\x18\x02 \x01(\x0b\x32!.HandDetect.Proto3DControlCommand\"#\n\x11ProtoHandResponse\x12\x0e\n\x06result\x18\x01 \x01(\x08\"\xc6\x07\n\tProtoHand\x12\x0f\n\x07handUid\x18\x18 \x01(\x05\x12\x13\n\x0bgestureType\x18\x17 \x01(\x05\x12\x10\n\x08handSide\x18\x16 \x01(\x05\x12!\n\x05WRIST\x18\x15 \x01(\x0b\x32\x12.HandDetect.point3\x12%\n\tTHUMB_CMC\x18\x01 \x01(\x0b\x32\x12.HandDetect.point3\x12%\n\tTHUMB_MCP\x18\x02 \x01(\x0b\x32\x12.HandDetect.point3\x12%\n\tTHUMB_DIP\x18\x03 \x01(\x0b\x32\x12.HandDetect.point3\x12%\n\tTHUMB_TIP\x18\x04 \x01(\x0b\x32\x12.HandDetect.point3\x12,\n\x10INDEX_FINGER_MCP\x18\x05 \x01(\x0b\x32\x12.HandDetect.point3\x12,\n\x10INDEX_FINGER_PIP\x18\x06 \x01(\x0b\x32\x12.HandDetect.point3\x12,\n\x10INDEX_FINGER_DIP\x18\x07 \x01(\x0b\x32\x12.HandDetect.point3\x12,\n\x10INDEX_FINGER_TIP\x18\x08 \x01(\x0b\x32\x12.HandDetect.point3\x12-\n\x11MIDDLE_FINGER_MCP\x18\t \x01(\x0b\x32\x12.HandDetect.point3\x12-\n\x11MIDDLE_FINGER_PIP\x18\n \x01(\x0b\x32\x12.HandDetect.point3\x12-\n\x11MIDDLE_FINGER_DIP\x18\x0b \x01(\x0b\x32\x12.HandDetect.point3\x12-\n\x11MIDDLE_FINGER_TIP\x18\x0c \x01(\x0b\x32\x12.HandDetect.point3\x12+\n\x0fRING_FINGER_MCP\x18\r \x01(\x0b\x32\x12.HandDetect.point3\x12+\n\x0fRING_FINGER_PIP\x18\x0e \x01(\x0b\x32\x12.HandDetect.point3\x12+\n\x0fRING_FINGER_DIP\x18\x0f \x01(\x0b\x32\x12.HandDetect.point3\x12+\n\x0fRING_FINGER_TIP\x18\x10 \x01(\x0b\x32\x12.HandDetect.point3\x12%\n\tPINKY_MCP\x18\x11 \x01(\x0b\x32\x12.HandDetect.point3\x12%\n\tPINKY_PIP\x18\x12 \x01(\x0b\x32\x12.HandDetect.point3\x12%\n\tPINKY_DIP\x18\x13 \x01(\x0b\x32\x12.HandDetect.point3\x12%\n\tPINKY_TIP\x18\x14 \x01(\x0b\x32\x12.HandDetect.point3\"*\n\x15Proto3DControlCommand\x12\x11\n\tcommandId\x18\x01 \x01(\x05\x32X\n\x0bHandService\x12I\n\x08PushHand\x12\x1c.HandDetect.ProtoHandRequest\x1a\x1d.HandDetect.ProtoHandResponse\"\x00\x62\x06proto3'
+  serialized_pb=b'\n\nhand.proto\x12\nHandDetect\")\n\x06point3\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\"\x1e\n\x06point2\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\"l\n\x10ProtoHandRequest\x12$\n\x05hands\x18\x01 \x03(\x0b\x32\x15.HandDetect.ProtoHand\x12\x32\n\x07\x63ommand\x18\x02 \x01(\x0b\x32!.HandDetect.Proto3DControlCommand\"#\n\x11ProtoHandResponse\x12\x0e\n\x06result\x18\x01 \x01(\x08\"\xde\x06\n\tProtoHand\x12\x0f\n\x07handUid\x18\x18 \x01(\x05\x12\x13\n\x0bgestureType\x18\x17 \x01(\x05\x12\x10\n\x08handSide\x18\x16 \x01(\x05\x12!\n\x05Wrist\x18\x15 \x01(\x0b\x32\x12.HandDetect.point3\x12$\n\x08ThumbCMC\x18\x01 \x01(\x0b\x32\x12.HandDetect.point3\x12$\n\x08ThumbMCP\x18\x02 \x01(\x0b\x32\x12.HandDetect.point3\x12$\n\x08ThumbDIP\x18\x03 \x01(\x0b\x32\x12.HandDetect.point3\x12$\n\x08ThumbTIP\x18\x04 \x01(\x0b\x32\x12.HandDetect.point3\x12$\n\x08IndexMCP\x18\x05 \x01(\x0b\x32\x12.HandDetect.point3\x12$\n\x08IndexPIP\x18\x06 \x01(\x0b\x32\x12.HandDetect.point3\x12$\n\x08IndexDIP\x18\x07 \x01(\x0b\x32\x12.HandDetect.point3\x12$\n\x08IndexTIP\x18\x08 \x01(\x0b\x32\x12.HandDetect.point3\x12%\n\tMiddleMCP\x18\t \x01(\x0b\x32\x12.HandDetect.point3\x12%\n\tMiddlePIP\x18\n \x01(\x0b\x32\x12.HandDetect.point3\x12%\n\tMiddleDIP\x18\x0b \x01(\x0b\x32\x12.HandDetect.point3\x12%\n\tMiddleTIP\x18\x0c \x01(\x0b\x32\x12.HandDetect.point3\x12#\n\x07RingMCP\x18\r \x01(\x0b\x32\x12.HandDetect.point3\x12#\n\x07RingPIP\x18\x0e \x01(\x0b\x32\x12.HandDetect.point3\x12#\n\x07RingDIP\x18\x0f \x01(\x0b\x32\x12.HandDetect.point3\x12#\n\x07RingTIP\x18\x10 \x01(\x0b\x32\x12.HandDetect.point3\x12$\n\x08PinkyMCP\x18\x11 \x01(\x0b\x32\x12.HandDetect.point3\x12$\n\x08PinkyPIP\x18\x12 \x01(\x0b\x32\x12.HandDetect.point3\x12$\n\x08PinkyDIP\x18\x13 \x01(\x0b\x32\x12.HandDetect.point3\x12$\n\x08PinkyTIP\x18\x14 \x01(\x0b\x32\x12.HandDetect.point3\"*\n\x15Proto3DControlCommand\x12\x11\n\tcommandId\x18\x01 \x01(\x05\x32\x8d\x01\n\x0bHandService\x12I\n\x08PushHand\x12\x1c.HandDetect.ProtoHandRequest\x1a\x1d.HandDetect.ProtoHandResponse\"\x00\x12\x33\n\x07\x44oGreat\x12\x12.HandDetect.point3\x1a\x12.HandDetect.point3\"\x00\x62\x06proto3'
 )
 
 
@@ -211,147 +211,147 @@ _PROTOHAND = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='WRIST', full_name='HandDetect.ProtoHand.WRIST', index=3,
+      name='Wrist', full_name='HandDetect.ProtoHand.Wrist', index=3,
       number=21, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='THUMB_CMC', full_name='HandDetect.ProtoHand.THUMB_CMC', index=4,
+      name='ThumbCMC', full_name='HandDetect.ProtoHand.ThumbCMC', index=4,
       number=1, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='THUMB_MCP', full_name='HandDetect.ProtoHand.THUMB_MCP', index=5,
+      name='ThumbMCP', full_name='HandDetect.ProtoHand.ThumbMCP', index=5,
       number=2, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='THUMB_DIP', full_name='HandDetect.ProtoHand.THUMB_DIP', index=6,
+      name='ThumbDIP', full_name='HandDetect.ProtoHand.ThumbDIP', index=6,
       number=3, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='THUMB_TIP', full_name='HandDetect.ProtoHand.THUMB_TIP', index=7,
+      name='ThumbTIP', full_name='HandDetect.ProtoHand.ThumbTIP', index=7,
       number=4, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='INDEX_FINGER_MCP', full_name='HandDetect.ProtoHand.INDEX_FINGER_MCP', index=8,
+      name='IndexMCP', full_name='HandDetect.ProtoHand.IndexMCP', index=8,
       number=5, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='INDEX_FINGER_PIP', full_name='HandDetect.ProtoHand.INDEX_FINGER_PIP', index=9,
+      name='IndexPIP', full_name='HandDetect.ProtoHand.IndexPIP', index=9,
       number=6, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='INDEX_FINGER_DIP', full_name='HandDetect.ProtoHand.INDEX_FINGER_DIP', index=10,
+      name='IndexDIP', full_name='HandDetect.ProtoHand.IndexDIP', index=10,
       number=7, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='INDEX_FINGER_TIP', full_name='HandDetect.ProtoHand.INDEX_FINGER_TIP', index=11,
+      name='IndexTIP', full_name='HandDetect.ProtoHand.IndexTIP', index=11,
       number=8, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='MIDDLE_FINGER_MCP', full_name='HandDetect.ProtoHand.MIDDLE_FINGER_MCP', index=12,
+      name='MiddleMCP', full_name='HandDetect.ProtoHand.MiddleMCP', index=12,
       number=9, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='MIDDLE_FINGER_PIP', full_name='HandDetect.ProtoHand.MIDDLE_FINGER_PIP', index=13,
+      name='MiddlePIP', full_name='HandDetect.ProtoHand.MiddlePIP', index=13,
       number=10, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='MIDDLE_FINGER_DIP', full_name='HandDetect.ProtoHand.MIDDLE_FINGER_DIP', index=14,
+      name='MiddleDIP', full_name='HandDetect.ProtoHand.MiddleDIP', index=14,
       number=11, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='MIDDLE_FINGER_TIP', full_name='HandDetect.ProtoHand.MIDDLE_FINGER_TIP', index=15,
+      name='MiddleTIP', full_name='HandDetect.ProtoHand.MiddleTIP', index=15,
       number=12, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='RING_FINGER_MCP', full_name='HandDetect.ProtoHand.RING_FINGER_MCP', index=16,
+      name='RingMCP', full_name='HandDetect.ProtoHand.RingMCP', index=16,
       number=13, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='RING_FINGER_PIP', full_name='HandDetect.ProtoHand.RING_FINGER_PIP', index=17,
+      name='RingPIP', full_name='HandDetect.ProtoHand.RingPIP', index=17,
       number=14, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='RING_FINGER_DIP', full_name='HandDetect.ProtoHand.RING_FINGER_DIP', index=18,
+      name='RingDIP', full_name='HandDetect.ProtoHand.RingDIP', index=18,
       number=15, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='RING_FINGER_TIP', full_name='HandDetect.ProtoHand.RING_FINGER_TIP', index=19,
+      name='RingTIP', full_name='HandDetect.ProtoHand.RingTIP', index=19,
       number=16, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='PINKY_MCP', full_name='HandDetect.ProtoHand.PINKY_MCP', index=20,
+      name='PinkyMCP', full_name='HandDetect.ProtoHand.PinkyMCP', index=20,
       number=17, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='PINKY_PIP', full_name='HandDetect.ProtoHand.PINKY_PIP', index=21,
+      name='PinkyPIP', full_name='HandDetect.ProtoHand.PinkyPIP', index=21,
       number=18, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='PINKY_DIP', full_name='HandDetect.ProtoHand.PINKY_DIP', index=22,
+      name='PinkyDIP', full_name='HandDetect.ProtoHand.PinkyDIP', index=22,
       number=19, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR,  create_key=_descriptor._internal_create_key),
     _descriptor.FieldDescriptor(
-      name='PINKY_TIP', full_name='HandDetect.ProtoHand.PINKY_TIP', index=23,
+      name='PinkyTIP', full_name='HandDetect.ProtoHand.PinkyTIP', index=23,
       number=20, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -370,7 +370,7 @@ _PROTOHAND = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=249,
-  serialized_end=1215,
+  serialized_end=1111,
 )
 
 
@@ -401,33 +401,33 @@ _PROTO3DCONTROLCOMMAND = _descriptor.Descriptor(
   extension_ranges=[],
   oneofs=[
   ],
-  serialized_start=1217,
-  serialized_end=1259,
+  serialized_start=1113,
+  serialized_end=1155,
 )
 
 _PROTOHANDREQUEST.fields_by_name['hands'].message_type = _PROTOHAND
 _PROTOHANDREQUEST.fields_by_name['command'].message_type = _PROTO3DCONTROLCOMMAND
-_PROTOHAND.fields_by_name['WRIST'].message_type = _POINT3
-_PROTOHAND.fields_by_name['THUMB_CMC'].message_type = _POINT3
-_PROTOHAND.fields_by_name['THUMB_MCP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['THUMB_DIP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['THUMB_TIP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['INDEX_FINGER_MCP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['INDEX_FINGER_PIP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['INDEX_FINGER_DIP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['INDEX_FINGER_TIP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['MIDDLE_FINGER_MCP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['MIDDLE_FINGER_PIP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['MIDDLE_FINGER_DIP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['MIDDLE_FINGER_TIP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['RING_FINGER_MCP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['RING_FINGER_PIP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['RING_FINGER_DIP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['RING_FINGER_TIP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['PINKY_MCP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['PINKY_PIP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['PINKY_DIP'].message_type = _POINT3
-_PROTOHAND.fields_by_name['PINKY_TIP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['Wrist'].message_type = _POINT3
+_PROTOHAND.fields_by_name['ThumbCMC'].message_type = _POINT3
+_PROTOHAND.fields_by_name['ThumbMCP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['ThumbDIP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['ThumbTIP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['IndexMCP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['IndexPIP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['IndexDIP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['IndexTIP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['MiddleMCP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['MiddlePIP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['MiddleDIP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['MiddleTIP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['RingMCP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['RingPIP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['RingDIP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['RingTIP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['PinkyMCP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['PinkyPIP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['PinkyDIP'].message_type = _POINT3
+_PROTOHAND.fields_by_name['PinkyTIP'].message_type = _POINT3
 DESCRIPTOR.message_types_by_name['point3'] = _POINT3
 DESCRIPTOR.message_types_by_name['point2'] = _POINT2
 DESCRIPTOR.message_types_by_name['ProtoHandRequest'] = _PROTOHANDREQUEST
@@ -487,8 +487,8 @@ _HANDSERVICE = _descriptor.ServiceDescriptor(
   index=0,
   serialized_options=None,
   create_key=_descriptor._internal_create_key,
-  serialized_start=1261,
-  serialized_end=1349,
+  serialized_start=1158,
+  serialized_end=1299,
   methods=[
   _descriptor.MethodDescriptor(
     name='PushHand',
@@ -497,6 +497,16 @@ _HANDSERVICE = _descriptor.ServiceDescriptor(
     containing_service=None,
     input_type=_PROTOHANDREQUEST,
     output_type=_PROTOHANDRESPONSE,
+    serialized_options=None,
+    create_key=_descriptor._internal_create_key,
+  ),
+  _descriptor.MethodDescriptor(
+    name='DoGreat',
+    full_name='HandDetect.HandService.DoGreat',
+    index=1,
+    containing_service=None,
+    input_type=_POINT3,
+    output_type=_POINT3,
     serialized_options=None,
     create_key=_descriptor._internal_create_key,
   ),
